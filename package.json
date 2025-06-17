@@ -1,0 +1,39 @@
+{
+  "name": "formdand",
+  "type": "module",
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "@wdio/allure-reporter": "^9.11.0",
+    "@wdio/appium-service": "^9.12.1",
+    "@wdio/browserstack-service": "^9.15.0",
+    "@wdio/cli": "^9.12.1",
+    "@wdio/local-runner": "^9.9.1",
+    "@wdio/mocha-framework": "^9.9.0",
+    "@wdio/spec-reporter": "^9.9.0",
+    "allure-commandline": "^2.33.0",
+    "appium": "^2.19.0",
+    "appium-uiautomator2-driver": "^4.2.3",
+    "appium-xcuitest-driver": "^8.3.1",
+    "fs-extra": "^11.3.0",
+    "wdio-video-reporter": "^6.1.1"
+  },
+  "scripts": {
+    "report": "node generate-report.js",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "faker": "^6.6.6",
+    "nodejs-whisper": "^0.2.9",
+    "nodemailer": "^6.10.1"
+  },
+  "version": "1.0.0",
+  "description": "hdnc heiy lwpk wxap nohup node generate-report.js &",
+  "main": "generate-report.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
